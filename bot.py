@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from telebot import types
 
+
 TOKEN = "6685029885:AAFa5RURuqztb7aGigWN8qc0Fyw_cUTBUxs"
 bot = telebot.TeleBot(TOKEN)
 df = pd.read_csv('text.csv')
